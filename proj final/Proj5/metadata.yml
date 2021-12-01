@@ -1,0 +1,13 @@
+---
+:id: 102572310
+:submitters:
+- :name: Victor Peixoto Barbosa
+  :email: victorpb@ufba.br
+- :name: Mateus Romano
+  :email: mateusyasd@hotmail.com
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2021-11-30 14:57:18.081171000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2021-11-30 06:57:18.081171000 Z
+:status: processed
