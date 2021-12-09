@@ -1,0 +1,21 @@
+cp alu.circ tests/single-cycle
+cp regfile.circ tests/single-cycle
+cp mem.circ tests/single-cycle
+cp cpu.circ tests/single-cycle
+cd tests/single-cycle && python2.7 autograder_cpu.py -here
+Testing submission for here...
+	here FAILED test: CPU sll test
+	here FAILED test: CPU add/lui test
+	here FAILED test: CPU branches test
+	here FAILED test: CPU jump test
+	here FAILED test: CPU mem test
+	here FAILED test: CPU use all test
+	Score for here: 0/6 (0/6 tests passed, 0 partially)
+here: 0/6 (0/6 tests passed, 0 partially)
+	Failed test "CPU sll test" worth 1 points. Reason: No lines matched expected output
+	Failed test "CPU add/lui test" worth 1 points. Reason: No lines matched expected output
+	Failed test "CPU branches test" worth 1 points. Reason: No lines matched expected output
+	Failed test "CPU jump test" worth 1 points. Reason: No lines matched expected output
+	Failed test "CPU mem test" worth 1 points. Reason: No lines matched expected output
+	Failed test "CPU use all test" worth 1 points. Reason: No lines matched expected output
+mv tests/single-cycle/TEST_LOG TEST_LOG_SINGLE_CYCLE
